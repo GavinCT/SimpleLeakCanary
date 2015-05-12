@@ -8,6 +8,11 @@
 # Java class files
 *.class
 
+# IntelliJ
+.idea/
+*.iml
+captures/
+
 # Generated files
 bin/
 gen/
@@ -25,3 +30,6 @@ proguard/
 
 # Log Files
 *.log
+
+# OSX
+.DS_Store
