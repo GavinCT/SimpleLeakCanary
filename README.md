@@ -1,0 +1,2 @@
+# SimpleLeakCanary
+LeakCanary simple version
