@@ -12,6 +12,7 @@ RefWatcher是引用监听,也是监听部分最核心的代码。
 - leakcanary-android : debug时调用，组织监听、分析、展示结果等逻辑。
 - leakcanary-sample : 官方调用示例
 - leakcanary-watcher : 引用监听
+
 # 声明
-本库只是将LeakCanary监听部分做了简化处理（源码中还包含了排除SDK本身泄漏的部分，本库没有包含进来），方便大家以最小的成本学习原理。  
-开发中还请使用LeakCanary。 
+本库只是将LeakCanary监听部分做了简化处理，方便大家以最小的成本学习原理。  
+源码中还包含了排除SDK本身泄漏的部分，本库没有包含进来，开发中还请使用LeakCanary。 
